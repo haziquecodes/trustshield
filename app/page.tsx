@@ -412,7 +412,7 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Loved by Teams Worldwide</h2>
               <p className="max-w-[800px] text-muted-foreground md:text-lg">
-                Don't just take our word for it. See what our customers have to say about their experience.
+                {`Don't just take our word for it. See what our customers have to say about their experience.`}
               </p>
             </motion.div>
 
@@ -512,7 +512,7 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Simple, Transparent Pricing</h2>
               <p className="max-w-[800px] text-muted-foreground md:text-lg">
-                Choose the plan that's right for your business. Plan includes a 7-day free trial.
+                {`Choose the plan that's right for your business. Plan includes a 7-day free trial.`}
               </p>
             </motion.div>
 
