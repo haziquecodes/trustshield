@@ -4,6 +4,8 @@ import ThemeProvider from "@/components/theme-provider";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import React from "react"; // important to allow JSX + props like children
+import "./globals.css";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
