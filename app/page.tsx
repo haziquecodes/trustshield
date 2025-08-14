@@ -148,16 +148,6 @@ export default function LandingPage() {
               {mounted && theme === "dark" ? <Sun className="size-[18px]" /> : <Moon className="size-[18px]" />}
               <span className="sr-only">Toggle theme</span>
             </Button>
-            <Link
-              href="#"
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-            >
-              Log in
-            </Link>
-            <Button className="rounded-full">
-              Get Started
-              <ChevronRight className="ml-1 size-4" />
-            </Button>
           </div>
           <div className="flex items-center gap-4 md:hidden">
             <Button variant="ghost" size="icon" onClick={toggleTheme} className="rounded-full">
@@ -191,13 +181,6 @@ export default function LandingPage() {
                 FAQ
               </Link>
               <div className="flex flex-col gap-2 pt-2 border-t">
-                <Link href="#" className="py-2 text-sm font-medium" onClick={() => setMobileMenuOpen(false)}>
-                  Log in
-                </Link>
-                <Button className="rounded-full">
-                  Get Started
-                  <ChevronRight className="ml-1 size-4" />
-                </Button>
               </div>
             </div>
           </motion.div>
@@ -216,7 +199,7 @@ export default function LandingPage() {
               className="text-center max-w-3xl mx-auto mb-12"
             >
               <Badge className="mb-4 rounded-full px-4 py-1.5 text-sm font-medium" variant="secondary">
-                Launching Soon
+                Just Launched!
               </Badge>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
                 Elevate your security stack with TrustShield.
@@ -227,11 +210,8 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="rounded-full h-12 px-8 text-base">
-                  Start Free Trial
+                  Download Now!
                   <ArrowRight className="ml-2 size-4" />
-                </Button>
-                <Button size="lg" variant="outline" className="rounded-full h-12 px-8 text-base">
-                  Book a Demo
                 </Button>
               </div>
               <div className="flex items-center justify-center gap-4 mt-6 text-sm text-muted-foreground">
@@ -536,7 +516,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                         price: "$0",
                         description: "Perfect for individuals.",
                         features: ["100MB storage", "Local-only fragment operations", "No encryption"],
-                        cta: "Download Now",
                       },
                       {
                         name: "Professional",
@@ -547,7 +526,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                           "AES-256 encryption",
                           "Priority email support",,
                         ],
-                        cta: "Start Free Trial",
                         popular: true,
                       },
                       {
@@ -559,7 +537,7 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                           "AES-256 encryption",
                           "24/7 phone & email support",
                         ],
-                        cta: "Contact Sales",
+
                       },
                     ].map((plan, i) => (
                       <motion.div
@@ -592,12 +570,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                                 </li>
                               ))}
                             </ul>
-                            <Button
-                              className={`w-full mt-auto rounded-full ${plan.popular ? "bg-primary hover:bg-primary/90" : "bg-muted hover:bg-muted/80"}`}
-                              variant={plan.popular ? "default" : "outline"}
-                            >
-                              {plan.cta}
-                            </Button>
                           </CardContent>
                         </Card>
                       </motion.div>
@@ -612,7 +584,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                         price: "$0",
                         description: "Perfect for individuals.",
                         features: ["100MB storage", "Local-only fragment operations", "No encryption"],
-                        cta: "Download Now",
                       },
                       {
                         name: "Professional",
@@ -623,7 +594,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                           "AES-256 encryption",
                           "Priority email support",,
                         ],
-                        cta: "Start Free Trial",
                         popular: true,
                       },
                       {
@@ -635,7 +605,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                           "AES-256 encryption",
                           "24/7 phone & email support",
                         ],
-                        cta: "Contact Sales",
                       },
                     ].map((plan, i) => (
                       <motion.div
@@ -668,12 +637,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                                 </li>
                               ))}
                             </ul>
-                            <Button
-                              className={`w-full mt-auto rounded-full ${plan.popular ? "bg-primary hover:bg-primary/90" : "bg-muted hover:bg-muted/80"}`}
-                              variant={plan.popular ? "default" : "outline"}
-                            >
-                              {plan.cta}
-                            </Button>
                           </CardContent>
                         </Card>
                       </motion.div>
@@ -779,17 +742,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                 Join thousands who trust TrustShield to encrypt, split, and safeguard their critical files — with total control and zero compromise.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-4">
-                <Button size="lg" variant="secondary" className="rounded-full h-12 px-8 text-base">
-                  Start Free Trial
-                  <ArrowRight className="ml-2 size-4" />
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="rounded-full h-12 px-8 text-base bg-transparent border-white text-white hover:bg-white/10"
-                >
-                  Schedule a Demo
-                </Button>
               </div>
               <p className="text-sm text-primary-foreground/80 mt-4">
                 No credit card required. 7-day free trial. Cancel anytime.
