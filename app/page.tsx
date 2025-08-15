@@ -515,14 +515,14 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                         name: "Starter",
                         price: "$0",
                         description: "Perfect for individuals.",
-                        features: ["100MB storage", "Local-only fragment operations", "No encryption"],
+                        features: ["Encrypt & Split Files up to 100MB", "Local-only fragment operations", "No encryption"],
                       },
                       {
                         name: "Professional",
                         price: "$4.99",
                         description: "Ideal for growing businesses.",
                         features: [
-                          "10GB storage",
+                          "Encrypt & Split Files up to 10GB",
                           "AES-256 encryption",
                           "Priority email support",,
                         ],
@@ -533,7 +533,7 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                         price: "$19.99",
                         description: "For large organizations with complex needs.",
                         features: [
-                          "100GB storage",
+                          "Encrypt & Split Files up to 100GB",
                           "AES-256 encryption",
                           "24/7 phone & email support",
                         ],
@@ -583,14 +583,14 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                         name: "Starter",
                         price: "$0",
                         description: "Perfect for individuals.",
-                        features: ["100MB storage", "Local-only fragment operations", "No encryption"],
+                        features: ["Encrypt & Split Files up to 100MB", "Local-only fragment operations", "No encryption"],
                       },
                       {
                         name: "Professional",
                         price: "$3.99",
                         description: "Ideal for growing businesses.",
                         features: [
-                          "10GB storage",
+                          "Encrypt & Split Files up to 10GB",
                           "AES-256 encryption",
                           "Priority email support",,
                         ],
@@ -601,7 +601,7 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
                         price: "$15.99",
                         description: "For large organizations with complex needs.",
                         features: [
-                          "100GB storage",
+                          "Encrypt & Split Files up to 100GB",
                           "AES-256 encryption",
                           "24/7 phone & email support",
                         ],
