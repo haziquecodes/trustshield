@@ -209,10 +209,11 @@ export default function LandingPage() {
 Protect your data, simplify collaboration, and stay in control—so you can focus on what matters most.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="rounded-full h-12 px-8 text-base">
-                  Download Now!
-                  <ArrowRight className="ml-2 size-4" />
-                </Button>
+                <a
+                href="https://drive.google.com/file/d/1WLNh5ogJJL6pfwrrYUYcMYrdSh7eKqmR/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" className="rounded-full h-12 px-8 text-base">Download Now!<ArrowRight className="ml-2 size-4" />
+                  </Button>
+                </a>
               </div>
               <div className="flex items-center justify-center gap-4 mt-6 text-sm text-muted-foreground">
                 <div className="flex items-center gap-1">
@@ -239,10 +240,10 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
               <div className="rounded-xl overflow-hidden shadow-2xl border border-border/40 bg-gradient-to-b from-background to-muted/20">
                 <Image
                   src="https://i.ibb.co/B2PfrJFB/frontpage.png"
-                  width={1280}
-                  height={720}
-                  alt="SaaSify dashboard"
-                  className="w-full h-auto"
+                  width={640}
+                  height={360}
+                  alt="Frontpage"
+                  className="w-full h-auto object-cover"
                   priority
                 />
                 <div className="absolute inset-0 rounded-xl ring-1 ring-inset ring-black/10 dark:ring-white/10"></div>
@@ -258,18 +259,6 @@ Protect your data, simplify collaboration, and stay in control—so you can focu
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <p className="text-sm font-medium text-muted-foreground">Trusted by innovative companies worldwide</p>
-              <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Image
-                    key={i}
-                    src={`/placeholder-logo.svg`}
-                    alt={`Company logo ${i}`}
-                    width={120}
-                    height={60}
-                    className="h-8 w-auto opacity-70 grayscale transition-all hover:opacity-100 hover:grayscale-0"
-                  />
-                ))}
-              </div>
             </div>
           </div>
         </section>
